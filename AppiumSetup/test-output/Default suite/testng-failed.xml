@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="appiumtest.Testapp">
+        <methods>
+          <include name="D_camera"/>
+          <include name="H_swipe"/>
+          <include name="F_more"/>
+          <include name="C_sreens"/>
+          <include name="quit"/>
+          <include name="B_navigation"/>
+          <include name="G_sharing"/>
+          <include name="E_collectionscreen"/>
+          <include name="A_login"/>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- appiumtest.Testapp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
